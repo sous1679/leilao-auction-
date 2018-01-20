@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Cadastro">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Views.Cadastro.Cadastro">
   <grid id="27dc6" binding="Tela" layout-manager="FormLayout">
     <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="top:15dlu:noGrow"/>
@@ -50,7 +50,7 @@
           <foreground color="-16777216"/>
           <margin top="0" left="0" bottom="0" right="0"/>
           <preferredSize width="131" height="40"/>
-          <text value="Faça seu Cadastro"/>
+          <text value="Faça seu Views.Cadastro"/>
         </properties>
         <clientProperties>
           <caretWidth class="java.lang.Integer" value="0"/>

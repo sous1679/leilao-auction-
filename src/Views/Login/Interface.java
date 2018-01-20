@@ -1,13 +1,11 @@
+package Views.Login;
+
 import java.awt.event.*;
 import javax.swing.*;
 import java.awt.Toolkit;
 import java.awt.Color;
 import javax.swing.border.SoftBevelBorder;
 import javax.swing.border.BevelBorder;
-import java.awt.FlowLayout;
-import java.awt.GridBagLayout;
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
 import java.awt.BorderLayout;
 import java.awt.Checkbox;
 import net.miginfocom.swing.MigLayout;
@@ -27,16 +25,18 @@ public class Interface {
 
 	public Interface() {
 		janela = new JFrame("Vidente");
+		janela.getContentPane().setBackground(new Color(224, 255, 255));
 		janela.setBackground(Color.WHITE);
 		janela.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Public\\Pictures\\Sample Pictures\\Penguins.jpg"));
-		janela.setTitle("Login");
+		janela.setTitle("Views/Login");
 		janela.setSize(409, 214);
 		janela.setResizable(false);
 		painel = new JPanel();
+		painel.setBackground(SystemColor.inactiveCaptionBorder);
 		painel.setBorder(new SoftBevelBorder(BevelBorder.LOWERED, null, null, null, null));
 		janela.getContentPane().add(painel, BorderLayout.SOUTH);
 		painel.setLayout(new MigLayout("", "[][][166px][][][57px]", "[14px][20px][14px][20px][23px][]"));
-		login = new JLabel("Usuário: ");
+		login = new JLabel("Usuï¿½rio: ");
 		login.setHorizontalAlignment(SwingConstants.CENTER);
 		painel.add(login, "cell 2 0,alignx left,aligny center");
 		campoTexto = new JTextField(20);
@@ -60,7 +60,7 @@ public class Interface {
 		btnEsqueciMinhaSenha.setBackground(SystemColor.menu);
 		btnEsqueciMinhaSenha.setForeground(UIManager.getColor("Button.foreground"));
 		painel.add(btnEsqueciMinhaSenha, "cell 2 5");
-		botaoLimpa = new JButton("Login");
+		botaoLimpa = new JButton("Views/Login");
 		botaoLimpa.setHorizontalAlignment(SwingConstants.LEFT);
 		botaoLimpa.setVerticalAlignment(SwingConstants.BOTTOM);
 		painel.add(botaoLimpa, "cell 3 5,alignx left,aligny top");
@@ -68,7 +68,7 @@ public class Interface {
 			public void actionPerformed(ActionEvent e) {
 				campoTexto.setText("");
 				senha.setText("");
-				JOptionPane.showMessageDialog(janela,"Login Efetuado ! ");
+				JOptionPane.showMessageDialog(janela,"Views.Login Efetuado ! ");
 				
 			}
 		});

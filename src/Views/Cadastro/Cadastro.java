@@ -1,3 +1,5 @@
+package Views.Cadastro;
+
 import javax.swing.*;
 
 public class Cadastro {
