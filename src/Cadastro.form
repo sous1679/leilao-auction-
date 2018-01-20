@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Cadastro">
+  <grid id="27dc6" binding="Tela" layout-manager="FormLayout">
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:15dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1312513"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="addaa" layout-manager="FormLayout">
+        <rowspec value="center:d:grow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="2f4fc" class="javax.swing.JTextField" binding="Texto">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.5"/>
+          <background color="-1312513"/>
+          <caretColor color="-1312513"/>
+          <disabledTextColor color="-16777216"/>
+          <dragEnabled value="true"/>
+          <foreground color="-16777216"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <preferredSize width="131" height="40"/>
+          <text value="Faça seu Cadastro"/>
+        </properties>
+        <clientProperties>
+          <caretWidth class="java.lang.Integer" value="0"/>
+        </clientProperties>
+      </component>
+      <grid id="10037" binding="NamePanel" layout-manager="FormLayout">
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1312513"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b60d9" class="javax.swing.JLabel" binding="NameLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Nome Completo"/>
+            </properties>
+          </component>
+          <component id="5889d" class="javax.swing.JTextField" binding="NameField">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms top="0" left="50" bottom="0" right="50" defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <background color="-5523008"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="b3537" binding="EmailPanel" layout-manager="FormLayout">
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1312513"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="11c7f" class="javax.swing.JLabel" binding="EmailLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Endereço de Email"/>
+            </properties>
+          </component>
+          <component id="94406" class="javax.swing.JTextField" binding="EmalField">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms top="0" left="50" bottom="0" right="50" defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <background color="-5523008"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a0f26" binding="SenhaPanel" layout-manager="FormLayout">
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1312513"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e5f95" class="javax.swing.JLabel" binding="SenhaLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Digite sua Senha"/>
+            </properties>
+          </component>
+          <component id="70cbc" class="javax.swing.JTextField" binding="SenhaField">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms top="0" left="50" bottom="0" right="50" defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <background color="-5523008"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="40b55" binding="ConfirmPanel" layout-manager="FormLayout">
+        <rowspec value="center:d:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-1312513"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a6add" class="javax.swing.JLabel" binding="ConfirmLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-16777216"/>
+              <text value="Confirme a Senha"/>
+            </properties>
+          </component>
+          <component id="ce0f3" class="javax.swing.JTextField" binding="ConfirmField">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms top="0" left="50" bottom="0" right="50" defaultalign-horz="false"/>
+            </constraints>
+            <properties>
+              <background color="-5523008"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="83aeb" class="javax.swing.JButton" binding="Confirm">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms top="0" left="100" bottom="0" right="100"/>
+        </constraints>
+        <properties>
+          <text value="Enviar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
